@@ -11,8 +11,10 @@ GameObject:
   - component: {fileID: 2104704770484765054}
   - component: {fileID: 1376231524326526167}
   - component: {fileID: 6219445523309928159}
+  - component: {fileID: -2870018630262687747}
+  - component: {fileID: -1177684167059156572}
   m_Layer: 0
-  m_Name: necromancer_idle_anim_f1
+  m_Name: Necromancer
   m_TagString: zezinho
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -102,3 +104,33 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!70 &-2870018630262687747
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6689214234323094257}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.16, y: 0.2}
+  m_Direction: 0
+--- !u!114 &-1177684167059156572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6689214234323094257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca90e523373ceee4a90eaa8d0723cc4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numHearts: 0
+  health: 0
