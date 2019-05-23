@@ -74,5 +74,12 @@ public class hero_script : MonoBehaviour
             Destroy(collision.gameObject);
             health.BigPotionPickUp();
         }
+        
     }
+    private void OnCollisionEnter2D(Collision2D other) {
+        if(other.gameObject.CompareTag("enemy")){
+            Destroy(other.gameObject);
+        }
+    }
+
 }
